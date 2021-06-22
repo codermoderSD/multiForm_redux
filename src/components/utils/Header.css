@@ -1,0 +1,24 @@
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  color: #4f35f8;
+  font-size: 1.1rem;
+}
+.page {
+  background-color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.active {
+  transition: all 0.5s ease-in-out;
+  background-color: #4f35f8;
+  color: #fff;
+}
